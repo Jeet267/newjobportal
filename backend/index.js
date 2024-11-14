@@ -24,7 +24,11 @@ app.get('/home', (req, res) => {
     });
 });
 
-app.use(cors());
+app.use(cors({
+    origin: '*',  // Allow all origins
+    credentials: true  // Allow cookies and authentication tokens
+  }));
+  
 
 const port = process.env.PORT || 3000;
 
