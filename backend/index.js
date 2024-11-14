@@ -25,7 +25,7 @@ app.get('/home', (req, res) => {
 });
 
 const corsOptions = {
-    origin: 'https://newjobportal-gbe3.onrender.com',
+    origin: 'https://newjobportal-7a3zj7ffb-abhijeets-projects-b1d899f1.vercel.app/',
     credentials: true
 };
 
